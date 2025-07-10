@@ -1,9 +1,0 @@
-10. #include using namespace std;
-// Função que retorna o maior entre dois números float float maior(float a, float b) { return (a > b) ? a : b; }
-
-int main() { float num1, num2; cout << "Digite dois números: "; cin >> num1 >> num2;
-
-cout << "O maior número é: " << maior(num1, num2) << endl;
-
-return 0;
-}
