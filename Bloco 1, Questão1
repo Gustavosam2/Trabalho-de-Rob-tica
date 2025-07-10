@@ -1,0 +1,15 @@
+1.#include using namespace std;
+
+int main() { // Declarando e inicializando variáveis de tipos primitivos do C++ int inteiro = 10; // Tipo inteiro char caractere = 'A'; // Tipo caractere float numeroFloat = 3.14f; // Tipo float (precisão simples) double numeroDouble = 3.14159; // Tipo double (precisão dupla) bool booleano = true; // Tipo booleano (true ou false) short numeroShort = 100; // Tipo short (inteiro curto) long numeroLong = 100000L; // Tipo long (inteiro longo)
+
+// Exibindo os valores das variáveis
+cout << "Valor do inteiro: " << inteiro << endl;
+cout << "Valor do caractere: " << caractere << endl;
+cout << "Valor do float: " << numeroFloat << endl;
+cout << "Valor do double: " << numeroDouble << endl;
+cout << "Valor do booleano: " << booleano << endl;
+cout << "Valor do short: " << numeroShort << endl;
+cout << "Valor do long: " << numeroLong << endl;
+
+return 0;
+}
