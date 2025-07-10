@@ -1,0 +1,31 @@
+2#include using namespace std;
+
+int main() { int num1, num2;
+
+// Leitura dos números
+cout << "Digite o primeiro número inteiro: ";
+cin >> num1;
+
+cout << "Digite o segundo número inteiro: ";
+cin >> num2;
+
+// Operações básicas
+int soma = num1 + num2;
+int subtracao = num1 - num2;
+int multiplicacao = num1 * num2;
+
+cout << "\nResultados:" << endl;
+cout << "Soma: " << soma << endl;
+cout << "Subtracao: " << subtracao << endl;
+cout << "Multiplicacao: " << multiplicacao << endl;
+
+// Verificação da divisão por zero
+if (num2 != 0) {
+    float divisao = static_cast<float>(num1) / num2;
+    cout << "Divisao: " << divisao << endl;
+} else {
+    cout << "Divisao: Indefinida (divisao por zero)" << endl;
+}
+
+return 0;
+}
