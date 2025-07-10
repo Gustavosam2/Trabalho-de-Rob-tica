@@ -1,0 +1,17 @@
+3#include using namespace std;
+
+int main() { // Declaração de Constantes e variáveis const float PI = 3.14159;
+float raio, area;
+
+// Entrada do raio
+cout << "Digite o raio do círculo: ";
+cin >> raio;
+
+// Cálculo da área
+area = PI * raio * raio;
+
+// Exibição do resultado
+cout << "A área do círculo é: " << area << endl;
+
+return 0;
+}
